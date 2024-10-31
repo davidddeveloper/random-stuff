@@ -14,6 +14,3 @@ const server = createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log(`I'm listening on ${hostname}${port}`)
 })
-
-
-console.log("Hello World!", "Ben 10 over 10.........")
